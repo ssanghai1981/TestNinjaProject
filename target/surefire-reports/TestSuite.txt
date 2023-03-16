@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 3, Errors: 0, Skipped: 18, Time elapsed: 13.188 s <<< FAILURE! - in TestSuite
+setup(tests.RegisterTest)  Time elapsed: 6.254 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:51494/devtools/browser/87e319f1-a01b-4dde-b4f8-9e4619324d09
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'VEDIKA', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+	at tests.RegisterTest.setup(RegisterTest.java:23)
+
+setup(tests.LoginTest)  Time elapsed: 2.575 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:51506/devtools/browser/fd1295d0-b325-4f1a-859d-af76b8d2e975
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'VEDIKA', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+	at tests.LoginTest.setup(LoginTest.java:22)
+
+setup(tests.SearchTest)  Time elapsed: 3.325 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:51526/devtools/browser/79700da7-3182-4431-b17c-40dc57aff2ea
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'VEDIKA', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+	at tests.SearchTest.setup(SearchTest.java:22)
+
